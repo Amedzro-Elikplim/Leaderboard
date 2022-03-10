@@ -1,9 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload = null; this.rel = 'stylesheet'" 
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="./style.css">
     <title>Leaderboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="bundle.js"></script></head>
-  <body>
-  </body>
+<script defer src="bundle.js"></script></head>
+<body>
+    
+
+    <section class="container">
+   
+        <div class="score-form-container d-flex wrap">
+        <div class="scores">
+            <div>
+                <header>
+                   <h1 class="title">Leaderboard</h1>
+                </header>
+                <div class="recent-scores-div d-flex wrap">
+                   <h2>Recent Scores</h2>
+                   <button type="button" class="refresh-btn">Refresh</button>
+               </div>
+            </div>
+            <div class="display-scores">
+                <ul class="score-list">
+                    <li>Score1</li>
+                    <li>Score2</li>
+                    <li>Score3</li>
+                    <li>Score4</li>
+                    <li>Score5</li>
+                    <li>Score6</li>
+                </ul>
+            </div>
+        </div>
+        <div class="form">
+            <h2>Add your scores</h2>
+            <form class="form">
+                <div>
+                    <label for="name"></label>
+                    <input class="input-field" type="text" id="name" placeholder="Add name...">
+                </div>
+
+                <div>
+                    <label for="score"></label>
+                    <input class="input-field" type="text" id="score" placeholder="Add score...">
+                </div>
+                 
+                <div>
+                    <input class="submit-btn" type="submit">
+                </div>
+
+            </form>
+        </div>
+         </div>
+    </section>
+    
+</body>
 </html>
