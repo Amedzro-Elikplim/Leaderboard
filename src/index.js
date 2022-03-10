@@ -1,4 +1,6 @@
 import './style.css';
-import PostScore from '../modules/Form.js';
+import GetUserInput from '../modules/Form.js';
+import Refresh from '../modules/Refresh.js';
 
-PostScore();
+GetUserInput();
+Refresh();
