@@ -1,3 +1,44 @@
 * {
-    background-color: aliceblue;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-left: 5rem;
+}
+
+.container {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.score-form-container {
+    justify-content: center;
+    gap: 30px;
+}
+
+.scores {
+
+}
+
+.recent-scores-div {
+    gap: 10px;
+}
+
+.display-scores {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.form div {
+    margin-top: 10px;
 }
