@@ -9,11 +9,47 @@
 </head>
 <body>
     <header>
-        <h1>Leaderboard</h1>
+        <h1 class="title">Leaderboard</h1>
     </header>
 
-    <section>
-        
+    <section class="container">
+        <div class="score-form-container d-flex wrap">
+        <div class="scores">
+            <div class="recent-scores-div d-flex wrap">
+               <h2>Recent Scores</h2>
+               <button type="button" class="refresh-btn">Refresh</button>
+            </div>
+            <div class="display-scores">
+                <ul>
+                    <li>Score1</li>
+                    <li>Score2</li>
+                    <li>Score3</li>
+                    <li>Score4</li>
+                    <li>Score5</li>
+                    <li>Score6</li>
+                </ul>
+            </div>
+        </div>
+        <div class="form">
+            <h2>Add your scores</h2>
+            <form action="" class="form">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Add name...">
+                </div>
+
+                <div>
+                    <label for="score"></label>
+                    <input type="text" id="score" placeholder="Add score...">
+                </div>
+                 
+                <div>
+                    <input type="submit">
+                </div>
+
+            </form>
+        </div>
+         </div>
     </section>
     
 </body>
