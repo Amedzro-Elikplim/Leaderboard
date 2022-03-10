@@ -5,8 +5,12 @@ const GetUserInput = () => {
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const user = document.getElementById('name').value;
-    const score = document.getElementById('score').value;
+
+    const userData = document.getElementById('name');
+    const scoreData = document.getElementById('score');
+
+    const user = userData.value;
+    const score = scoreData.value;
 
     if (user === '' || score === '') {
       alert('Please fill all fields');
@@ -15,8 +19,10 @@ const GetUserInput = () => {
 
     const response = await PostScore(user, score);
     if (response) {
-      console.log('score saved successfully');
+      alert('score saved successfully');
     }
+    userData.value = '';
+    scoreData.value = '';
   });
 };
 
