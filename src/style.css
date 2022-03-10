@@ -1,3 +1,69 @@
 * {
-    background-color: aliceblue;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.score-form-container {
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.recent-scores-div {
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.refresh-btn {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.display-scores {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.score-list {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.score-list li {
+  background-color: aliceblue;
+  margin: 10px 0;
+}
+
+.form h2 {
+  margin-top: 80px;
+}
+
+.form div {
+  margin-top: 10px;
+  width: 50vw;
+}
+
+.input-field {
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid gray;
+}
+
+.submit-btn {
+  padding: 10px 30px;
+  cursor: pointer;
 }
