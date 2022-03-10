@@ -27,23 +27,16 @@
                 </header>
                 <div class="recent-scores-div d-flex wrap">
                    <h2>Recent Scores</h2>
-                   <button type="button" class="refresh-btn">Refresh</button>
+                   <button type="button" id="refresh" class="refresh-btn">Refresh</button>
                </div>
             </div>
             <div class="display-scores">
-                <ul class="score-list">
-                    <li>Score1</li>
-                    <li>Score2</li>
-                    <li>Score3</li>
-                    <li>Score4</li>
-                    <li>Score5</li>
-                    <li>Score6</li>
-                </ul>
+                <ul class="score-list"></ul>
             </div>
         </div>
         <div class="form">
             <h2>Add your scores</h2>
-            <form class="form">
+            <form id="form" class="form">
                 <div>
                     <label for="name"></label>
                     <input class="input-field" type="text" id="name" placeholder="Add name...">
@@ -51,17 +44,15 @@
 
                 <div>
                     <label for="score"></label>
-                    <input class="input-field" type="text" id="score" placeholder="Add score...">
+                    <input class="input-field" type="number" id="score" placeholder="Add score...">
                 </div>
                  
                 <div>
-                    <input class="submit-btn" type="submit">
+                    <button class="submit-btn" id="submit" type="submit">Submit</button>
                 </div>
-
             </form>
         </div>
          </div>
     </section>
-    
 </body>
 </html>

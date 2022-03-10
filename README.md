@@ -16,6 +16,11 @@ Additional description about the project and its features.
 - Webpack
 - REST Api
 
+## Live Demo
+
+[Site is live. Visit now!](https://amedzro-elikplim.github.io/Leaderboard/dist/)
+ 
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
