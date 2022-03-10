@@ -1,9 +1,9 @@
-import PostScore from './PostScore';
+import PostScore from './PostScore.js';
 
 const GetUserInput = () => {
   const form = document.getElementById('form');
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const user = document.getElementById('name').value;
     const score = document.getElementById('score').value;
@@ -13,7 +13,10 @@ const GetUserInput = () => {
       return;
     }
 
-    PostScore(user, score);
+    const response = await PostScore(user, score);
+    if (response) {
+      console.log('score saved successfully');
+    }
   });
 };
 
