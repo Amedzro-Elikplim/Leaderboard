@@ -20,6 +20,8 @@ const PostScore = async (user, score) => {
   } catch (error) {
     alert(new Error(error));
   }
+
+  return true;
 };
 
 export default PostScore;
