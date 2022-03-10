@@ -1,4 +1,4 @@
-import { baseURL, UniqueID } from './API.js';
+import { BaseURL, UniqueID } from './API.js';
 
 const PostScore = async (user, score) => {
   const data = {
@@ -7,7 +7,7 @@ const PostScore = async (user, score) => {
   };
 
   try {
-    const response = await fetch(`${baseURL}games/${UniqueID}/scores/`, {
+    const response = await fetch(`${BaseURL}games/${UniqueID}/scores/`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -16,9 +16,9 @@ const PostScore = async (user, score) => {
       body: JSON.stringify(data),
     });
 
-    console.log(response);
+    return response;
   } catch (error) {
-    console.error(new Error(error));
+    alert(new Error(error));
   }
 };
 
