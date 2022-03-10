@@ -6,9 +6,12 @@ const DisplayScores = (resultObj) => {
   }
 
   const { result } = resultObj;
+
+  result.sort((a, b) => b.score - a.score);
+
   result.forEach((item) => {
     const li = document.createElement('li');
-    li.innerHTML = item.user;
+    li.innerHTML = `${item.user}: ${item.score}`;
     ul.appendChild(li);
   });
 };
