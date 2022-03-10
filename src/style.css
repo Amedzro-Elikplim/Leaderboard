@@ -20,7 +20,7 @@
 }
 
 .title {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .recent-scores-div {
@@ -29,8 +29,8 @@
 }
 
 .refresh-btn {
-    padding: 0px 10px;
-    cursor: pointer;
+  padding: 0px 10px;
+  cursor: pointer;
 }
 
 .display-scores {
@@ -44,12 +44,12 @@
 }
 
 .score-list li {
-    background-color: aliceblue;
-    margin: 10px 0px;
+  background-color: aliceblue;
+  margin: 10px 0px;
 }
 
 .form h2 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .form div {
@@ -58,12 +58,12 @@
 }
 
 .input-field {
-    padding: 10px;
-    width: 50vw;
-    border: 1px solid gray;
+  padding: 10px;
+  width: 50vw;
+  border: 1px solid gray;
 }
 
 .submit-btn {
-    padding: 10px 30px;
-    cursor: pointer;
+  padding: 10px 30px;
+  cursor: pointer;
 }
