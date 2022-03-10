@@ -5,10 +5,12 @@ const GetScore = async () => {
     const response = await fetch(`${BaseURL}games/${UniqueID}/scores/`);
     const result = await response.json();
 
-    console.log(result);
+    return result;
   } catch (error) {
     alert(new Error(error));
   }
+
+  return true;
 };
 
 export default GetScore;
