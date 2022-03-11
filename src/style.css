@@ -6,10 +6,10 @@
 }
 
 body {
-    background: url('../blobs/topBlob.svg'), url('../blobs/downBlob.svg');
-    background-repeat: no-repeat;
-    background-size: 25rem;
-    background-position: top right, bottom left;
+  background: url("../blobs/topBlob.svg"), url("../blobs/downBlob.svg");
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  background-position: top right, bottom left;
 }
 
 .d-flex {
@@ -75,7 +75,6 @@ body {
   width: 50vw;
   border: 1px solid rgb(189, 187, 187);
   outline: none;
-  
 }
 
 .submit-btn {
