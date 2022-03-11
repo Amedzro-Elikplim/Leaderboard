@@ -10,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: 25rem;
     background-position: top right, bottom left;
-    height: 100vh;
 }
 
 .d-flex {
@@ -25,6 +24,7 @@ body {
   justify-content: center;
   gap: 60px;
   margin-top: 50px;
+  height: 100vh;
 }
 
 .title {
