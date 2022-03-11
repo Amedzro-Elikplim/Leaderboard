@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"BaseURL\": () => (/* binding */ BaseURL),\n/* harmony export */   \"UniqueID\": () => (/* binding */ UniqueID)\n/* harmony export */ });\nconst BaseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';\r\nconst UniqueID = 'SDSQpuPfvaZSzYp0VZan';\r\n\r\n\n\n//# sourceURL=webpack://Leaderboard/./modules/API.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"BaseURL\": () => (/* binding */ BaseURL),\n/* harmony export */   \"UniqueID\": () => (/* binding */ UniqueID)\n/* harmony export */ });\nconst BaseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';\nconst UniqueID = 'SDSQpuPfvaZSzYp0VZan';\n\n\n\n//# sourceURL=webpack://Leaderboard/./modules/API.js?");
 
 /***/ }),
 
