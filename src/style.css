@@ -5,6 +5,14 @@
   font-family: Raleway, sans-serif;
 }
 
+body {
+    background: url('../blobs/topBlob.svg'), url('../blobs/downBlob.svg');
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: top right, bottom left;
+    height: 100vh;
+}
+
 .d-flex {
   display: flex;
 }
@@ -31,11 +39,15 @@
 .refresh-btn {
   padding: 0 10px;
   cursor: pointer;
+  border: none;
+  background-color: rgb(247, 229, 149);
+  box-shadow: 1px 1px 5px gray;
 }
 
 .display-scores {
-  border: 1px solid black;
+  border: 1px solid rgb(189, 185, 185);
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 .score-list {
@@ -46,6 +58,7 @@
 .score-list li {
   background-color: aliceblue;
   margin: 10px 0;
+  padding: 10px;
 }
 
 .form h2 {
@@ -60,10 +73,18 @@
 .input-field {
   padding: 10px;
   width: 50vw;
-  border: 1px solid gray;
+  border: 1px solid rgb(189, 187, 187);
+  outline: none;
+  
 }
 
 .submit-btn {
   padding: 10px 30px;
   cursor: pointer;
+  background-color: rgb(119, 187, 247);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
 }
