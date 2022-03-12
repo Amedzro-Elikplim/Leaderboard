@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../blobs/topBlob.svg"), url("../blobs/downBlob.svg");
+  background: url("./topBlob.svg"), url("./downBlob.svg");
   background-repeat: no-repeat;
   background-size: 25rem;
   background-position: top right, bottom left;
