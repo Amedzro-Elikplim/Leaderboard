@@ -5,10 +5,10 @@
   font-family: Raleway, sans-serif;
 }
 
-body {
-  background: url("./topBlob.svg"), url("./downBlob.svg");
+.container {
+  background: url("../blobs/topBlob.svg"), url("../blobs/downBlob.svg");
   background-repeat: no-repeat;
-  background-size: 25rem;
+  background-size: 20rem;
   background-position: top right, bottom left;
 }
 
@@ -25,6 +25,7 @@ body {
   gap: 60px;
   margin-top: 50px;
   height: 100vh;
+  background: transparent;
 }
 
 .title {
