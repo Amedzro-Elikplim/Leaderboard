@@ -5,12 +5,13 @@
   font-family: Raleway, sans-serif;
 }
 
-.container {
+/* body {
   background: url("../blobs/topBlob.svg"), url("../blobs/downBlob.svg");
   background-repeat: no-repeat;
-  background-size: 20rem;
+  background-size: 25rem;
   background-position: top right, bottom left;
-}
+  height: 100vh;
+} */
 
 .d-flex {
   display: flex;
@@ -25,7 +26,6 @@
   gap: 60px;
   margin-top: 50px;
   height: 100vh;
-  background: transparent;
 }
 
 .title {
