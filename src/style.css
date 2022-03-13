@@ -24,7 +24,6 @@ body {
   justify-content: center;
   gap: 60px;
   margin-top: 50px;
-  height: 100vh;
 }
 
 .title {
@@ -59,6 +58,10 @@ body {
   background-color: aliceblue;
   margin: 10px 0;
   padding: 10px;
+}
+
+.form {
+  margin: 10px;
 }
 
 .form h2 {

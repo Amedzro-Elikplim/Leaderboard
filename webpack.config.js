@@ -18,13 +18,8 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.svg/,
-        use: {
-          loader: 'svg-url-loader',
-          options: {
-            iesafe: true,
-          },
-        },
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
