@@ -5,13 +5,13 @@
   font-family: Raleway, sans-serif;
 }
 
-/* body {
+body {
   background: url("../blobs/topBlob.svg"), url("../blobs/downBlob.svg");
   background-repeat: no-repeat;
   background-size: 25rem;
   background-position: top right, bottom left;
   height: 100vh;
-} */
+}
 
 .d-flex {
   display: flex;
