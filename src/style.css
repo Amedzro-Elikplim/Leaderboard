@@ -10,7 +10,6 @@ body {
   background-repeat: no-repeat;
   background-size: 25rem;
   background-position: top right, bottom left;
-  height: 100vh;
 }
 
 .d-flex {
@@ -25,7 +24,6 @@ body {
   justify-content: center;
   gap: 60px;
   margin-top: 50px;
-  height: 100vh;
 }
 
 .title {
@@ -60,6 +58,10 @@ body {
   background-color: aliceblue;
   margin: 10px 0;
   padding: 10px;
+}
+
+.form {
+  margin: 10px;
 }
 
 .form h2 {
